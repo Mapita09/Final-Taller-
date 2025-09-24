@@ -1,5 +1,10 @@
 body{
-   background: linear-gradient(to right, #01d181b5, #ff9203d3, #ffee00b5,);
+   margin: 0;
+   height: 600vh;
+   background-color: rgb(252, 252, 252);
+   background-image: linear-gradient (rgba(255, 131, 131, 0.71), rgba(255, 177, 177, 0.71), rgba(250, 219, 219, 0.71), rgba(252,252,252),);
+   background-repeat: no-repeat;
+   background-size: 100vh 400vh;
 }
 
 #contenedor{
@@ -17,28 +22,46 @@ display: flex;
     color: rgb(37, 0, 46);
 }
 
+#tituloPagina:hover{
+    font-size: 7rem;
+    color:rgb(255, 196, 196)
+}
+
 #foto{
     text-align: center;
     font-size: 5em;
-}
-
-#titulo1{
-    text-align: center;
-    font: 7em;
-}
-
-#prediccion1{
-    text-align: center;
-    font: 4em;
+    width: 900px;
+    height: 600px;
 }
 
 #boton {
   font-size: 2em;
-  background-color: #00b670b5;
-  color: white;
-  margin-bottom: 1em;
+  background-color: rgb(255, 109, 109);
+  color: rgb(255, 235, 235);
+  margin-bottom: 1.5em;
   cursor: pointer;
   text-align: center;
   object-position: center;
-  
+  }
+
+#titulo1{
+    text-align: center;
+    font-size: 2em;
+    top: 50%;
+}
+
+#titulo1:hover{
+    font-size: 2.5em;
+    color: rgb(255, 139, 139);
+}
+
+#prediccion1{
+    text-align: center;
+    font-size: 1em;
+    top: 50%;
+}
+
+#prediccion1:hover{
+    font-size: 1.5em;
+    color:rgb(255, 139, 139)
 }
