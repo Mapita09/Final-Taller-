@@ -7,8 +7,7 @@ const imagenes = [
 "https://ichef.bbci.co.uk/ace/standard/745/cpsprodpb/048c/live/2bb03f70-1753-11ef-b507-edbcd7518f5c.jpg",
 "https://highxtar.com/wp-content/uploads/2025/01/highxtar-bad-bunny-1.jpg",
 "https://media.pitchfork.com/photos/592c550e13d197565213ef49/master/w_2560%2Cc_limit/4b594f8c.jpg",
-"https://www.sopitas.com/wp-content/uploads/2024/07/historia-de-chappell-roan-canciones-1.jpg",
-
+"https://www.sopitas.com/wp-content/uploads/2024/07/historia-de-chappell-roan-canciones-1.jpg",}
 ];
 
 const titulos = [
@@ -17,7 +16,7 @@ const titulos = [
 "KATSEYE",
 "Lola Young",
 "Rels B",
-"Billie Eilish"
+"Billie Eilish",
 "Bad Bunny",
 "Joe Hisaishi",
 "Chappell Roan",
