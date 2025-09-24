@@ -2,9 +2,8 @@ body{
    margin: 0;
    height: 600vh;
    background-color: rgb(252, 252, 252);
-   background-image: linear-gradient (rgba(255, 131, 131, 0.71), rgba(255, 177, 177, 0.71), rgba(250, 219, 219, 0.71), rgba(252,252,252),);
-   background-repeat: no-repeat;
-   background-size: 100vh 400vh;
+   background: linear-gradient(90deg, rgba(248, 49, 49, 0.71), rgba(255, 82, 82, 0.71), rgba(253, 120, 120, 0.71), rgba(255, 161, 161, 0.71));
+  
 }
 
 #contenedor{
@@ -24,20 +23,21 @@ display: flex;
 
 #tituloPagina:hover{
     font-size: 7rem;
-    color:rgb(255, 196, 196)
+    color:rgb(185, 94, 130)
 }
 
 #foto{
     text-align: center;
     font-size: 5em;
-    width: 900px;
-    height: 600px;
+    width: 870px;
+    height: 550px;
 }
 
 #boton {
   font-size: 2em;
-  background-color: rgb(255, 109, 109);
-  color: rgb(255, 235, 235);
+  background-color: rgb(185, 94, 130);
+  color: rgb(235, 179, 202);
+  border-color: rgb(235, 179, 202);
   margin-bottom: 1.5em;
   cursor: pointer;
   text-align: center;
@@ -48,20 +48,22 @@ display: flex;
     text-align: center;
     font-size: 2em;
     top: 50%;
+    color: rgb(37, 0, 46)
 }
 
 #titulo1:hover{
     font-size: 2.5em;
-    color: rgb(255, 139, 139);
+    color: rgb(124, 38, 73);
 }
 
 #prediccion1{
     text-align: center;
     font-size: 1em;
     top: 50%;
+    color:rgb(37, 0, 46)
 }
 
 #prediccion1:hover{
     font-size: 1.5em;
-    color:rgb(255, 139, 139)
+    color:rgb(148, 64, 97)
 }
