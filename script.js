@@ -7,7 +7,18 @@ const imagenes = [
 "https://ichef.bbci.co.uk/ace/standard/745/cpsprodpb/048c/live/2bb03f70-1753-11ef-b507-edbcd7518f5c.jpg",
 "https://highxtar.com/wp-content/uploads/2025/01/highxtar-bad-bunny-1.jpg",
 "https://media.pitchfork.com/photos/592c550e13d197565213ef49/master/w_2560%2Cc_limit/4b594f8c.jpg",
-"https://www.sopitas.com/wp-content/uploads/2024/07/historia-de-chappell-roan-canciones-1.jpg",}
+"https://www.sopitas.com/wp-content/uploads/2024/07/historia-de-chappell-roan-canciones-1.jpg",
+"https://www.apple.com/newsroom/images/product/music/standard/Apple-Music-Live-Ed-Sheeran-with-guitar_big.jpg.slideshow-xlarge.jpg",
+"https://akamai.sscdn.co/gcs/cifra-blog/es/wp-content/uploads/2022/01/7d7a1c2-olivia-rodrigo-rosa.jpg",
+"https://assets.vogue.com/photos/66ba1ca03ef5655ca1c7af88/master/w_2560%2Cc_limit/Fontaines%2520D.C._03%2520(credit_Theo%2520Cottle).jpg",
+"https://m.media-amazon.com/images/M/MV5BOWRjOGJkZjMtYjYwNC00YWE0LTg2ODAtOWZmM2VkZDAzMGU0XkEyXkFqcGc@._V1_.jpg",
+"https://www.billboard.com/wp-content/uploads/2024/12/doechii-04-press-credit-john-jay-2024-billboard-1548.jpg",
+" https://blogs-images.forbes.com/olliebarder/files/2017/04/radwimps_banda.jpg",
+"https://dixfm.com/wp-content/uploads/2020/07/One-Direction-cinema-film-concerto-San-Siro-scaled.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz4egIvY8W3kCGC2vA7oRQes_4KDmadzP9NhgUfjKippeJrT6aG_XukzpkPfCCYQNC8qmeIa5SrGNNaYF75wUjlvvK5K-YPGH4u7Qc0L2FjHBBQvI2YWRLyNe5AfqXSw_Xfk00z2Tc_HFo/w1200-h630-p-k-no-nu/Anri+-+1992.jpg",
+"https://miredvista.co/wp-content/uploads/2022/01/ABBA.jpg",
+"https://m.media-amazon.com/images/M/MV5BY2IyZjA0YjUtNDFmZC00NzY0LTk0MzQtMGM1N2U1NjRlZjQ1XkEyXkFqcGc@._V1_.jpg",
+"https://mrindie.com/wp-content/uploads/2022/10/beach_bunny_mrindie.png",
 ];
 
 const titulos = [
@@ -20,6 +31,17 @@ const titulos = [
 "Bad Bunny",
 "Joe Hisaishi",
 "Chappell Roan",
+"Ed Sheeran",
+"Olivia Rodrigo",
+"Fontains DC",
+"Pulp",
+"Doechii",
+"RADWIMPS",
+"One Direction",
+"Anri",
+"ABBA",
+"Two Door Cinema Club",
+"Beach Bunny",
 ];
 
 const frases = [
@@ -32,6 +54,17 @@ const frases = [
 "Canción siendo escuchada: WELTiTA / Tiempo escuchado en 2025: 851 minutos / Album fav: Un Verano Sin Ti",
 "Canción siendo escuchada: Merry Go Round of Life / Tiempo escuchado en 2025: 82 minutos / Album fav: Dream Songs: The Essential Joe Hisaishi",
 "Canción siendo escuchada: The Subway / Tiempo escuchado en 2025: 62 minutos / Album fav: The Rise and Fall of a Midwest Princess",
+"Canción siendo escuchada: Don't / Tiempo escuchado en 2025: 361 minutos / Album fav: Divide",
+"Canción siendo escuchada: Obssesed / Tiempo escuchado en 2025: 80 minutos / Album fav: SOUR",
+"Canción siendo escuchada: Favourite / Tiempo escuchado en 2025: 53 minutos / Album fav: Romance",
+"Canción siendo escuchada: Do You Remember The First Time / Tiempo escuchado en 2025: 87 minutos / Album fav: His ‘n’ Hers",
+"Canción siendo escuchada: Denial is a River / Tiempo escuchado en 2025: 81 minutos / Album fav: Alligator Bites Never Heal",
+"Canción siendo escuchada: Dream Lantern / Tiempo escuchado en 2025: 76 minutos / Album fav: Your Name",
+"Canción siendo escuchada: Night Changes / Tiempo escuchado en 2025: 118 minutos / Album fav: FOUR",
+"Canción siendo escuchada: Remember Summer Days / Tiempo escuchado en 2025: 68 minutos / Album fav: Timely!!",
+"Canción siendo escuchada: The Winner Takes It All / Tiempo escuchado en 2025: 289 minutos / Album fav: Super Trouper",
+"Canción siendo escuchada: Sun / Tiempo escuchado en 2025: 153 minutos / Album fav: Beacon",
+"Canción siendo escuchada: Clueless / Tiempo escuchado en 2025: 61 minutos / Album fav: Honeymoon",
 ];
 
 const canciones = [
@@ -44,6 +77,17 @@ const canciones = [
 "BadBunny.mp3",
 "JoeHisaishi.mp3",
 "Chappell.mp3",
+"EdSheeran.mp3",
+"OliviaRodrigo.mp3",
+"FontainsDC.mp3",
+"Pulp.mp3",
+"Doechii.mp3",
+"RADWIMPS.mp3",
+"OneDirection.mp3",
+"Anri.mp3",
+"ABBA.mp3",
+"SUN.mp3",
+"BeachBunny.mp3",
 ];
 
 const imagen = document.getElementById("foto");

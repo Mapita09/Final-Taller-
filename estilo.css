@@ -1,5 +1,5 @@
 body{
-   background-image: -moz-element(https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/07/scrolling-gradient.png);
+   background: linear-gradient(to right, #01d181b5, #ff9203d3, #ffee00b5,);
 }
 
 #contenedor{
@@ -34,7 +34,7 @@ display: flex;
 
 #boton {
   font-size: 2em;
-  background-color: #12ee9ab5;
+  background-color: #00b670b5;
   color: white;
   margin-bottom: 1em;
   cursor: pointer;
